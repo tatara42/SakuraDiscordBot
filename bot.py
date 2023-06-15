@@ -62,5 +62,5 @@ def run_discord_bot():
         else:
             await send_message(message, user_message, is_private=False)
 
-  # EXECUTES THE BOT WITH THE SPECIFIED TOKEN. TOKEN HAS BEEN REMOVED AND USED JUST AS AN EXAMPLE.
+  # EXECUTES THE BOT WITH THE SPECIFIED TOKEN
   bot.run(DISCORD_TOKEN)
